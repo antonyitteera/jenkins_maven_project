@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProductSpringApp {
     public static void main(String[] args) {
+    	System.out.println("Testing maven");
         SpringApplication.run(ProductSpringApp.class, args);
     }
 }
